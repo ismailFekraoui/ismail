@@ -1,0 +1,81 @@
+
+body {
+  font-family: "Comic Sans MS", cursive;
+  padding: 90px 30px;
+  font-size: 20px;
+  margin: 0;
+  color: #444;
+  background-color: #151515; 
+}
+
+
+h1 {
+  font-family: "Arial", sans-serif;
+  font-size: 60px;
+  color: #5742CC;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+h2 {
+  font-family: "Georgia", serif;
+  font-size: 45px;
+  color: red;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-family: "Georgia", serif;
+  font-size: 25px;
+  color: green;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+p, li {
+  color: white;
+  text-align: center;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+
+#logo-central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#logo-central img {
+  max-width: 200px;
+  height: auto;
+}
+
+
+a {
+  text-decoration: none;
+  color: #5742CC;
+}
+
+a:hover {
+  color: #6a4bcc;
+  text-decoration: underline;
+}
